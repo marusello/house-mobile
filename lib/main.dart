@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'house',
       theme: ThemeData(primarySwatch: Colors.orange),
-      initialRoute: '/map',
+      initialRoute: '/',
       routes: {
         '/': (context) => LoginPage(),
         '/map': (context) => HouseMap(),
